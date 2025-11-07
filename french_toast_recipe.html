@@ -1,0 +1,187 @@
+<!--Charlyn Woodruff ~ CIT 205 Web Dev Tools ~ Module 5 Exercise Bootstrap-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--This is the title for the webpage one of the SEO techniques I used-->
+    <title>Just A Dash ~ French Toast Recipe</title>
+     <!--This is the meta tag description with the description for the webpage 2 SEO technique I used-->
+    <meta name="description" content="Just a Dash ~ French Toast Breakfast Recipe | The perfect way to start your morning with a delicious french toast recipe that you can eat now or even freeze for later">
+    <!--This is the meta tag keyword with keywords for the webpage 3rd SEO technique I used-->
+    <meta name="keywords" content="french, toast, breakfast, recipe, meals, recipes">
+
+    <!--This is the character set-->
+    <meta charset="utf-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Birthstone Bounce' rel='stylesheet'>
+
+    <!--This section adds a favicon to the top tab of the browser window on each webpage and changes depending on the page your are on-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--This will tell the browser how to scale the webpage depending on the device that is viewing it-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+
+<body class="container rounded pt-2 mt-4 mb-4">
+  <div class="container pb-1">
+
+
+        <header id="topbar">
+            Recipes Made with Love
+        </header>
+
+        <div class="articleboxouter">
+            <div class="userform">
+                <input type="text" name="searchbox" id="search" size="8" >
+                <input type="submit" name="submit" value="search" >
+            </div>
+        </div>
+
+        <h1 id="website">Just A Dash </h1>
+        <h6>Start your Day with a hearty Breakfast!</h6>
+        
+      
+        <ul class="nav nav-pills" >
+          <li class="nav-item ">
+            <a class="nav-link active m-2" href="index.html" style="background-color: #3fb7f8">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Breakfast Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1 text-white" style="background-color: #3fb7f8" href="french_toast_recipe.html">French Toast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pancake_recipe.html">Pancake Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="breakfast_bake_recipe.html">Breakfast Bake Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Lunch Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="taco_recipe.html">Taco Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd"  href="chicken_soup_recipe.html">Chicken Soup Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="chicken_quesillda_recipe.html">Chicken Quesadilla Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dinner Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1" style="background-color: #fbfcfd"  href="meatloaf_recipe.html"  >Meatloaf Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pot_roast_recipe.html">Pot Roast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="lasagna_recipe.html" >Lasagna Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dessert Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1" style="background-color: #fbfcfd" href="homemade_ice_cream_recipe.html"  >Homemade Ice cream Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="hot_fudge_brownie_recipe.html">Hot Fudge Brownie Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="strawberry_pie_recipe.html">Strawberry Pie Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Subscribe & More</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1"  style="background-color: #fbfcfd" href="subscribe.html"  >Subscribe to NewsLetter</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="about.html">About Us</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="contact.html">Email us!</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+    
+    <main class="container rounded  articleboxouter">
+
+      <div class="container">
+
+            <img src="images/french_toast.jpg" alt="French Toast" class="mainpiccontrol rounded-circle float-start my-5 mx-3" >
+
+            <h2 class="container my-1 subscribeh2">French Toast Recipe</h2>
+        
+            <p>
+               What could be better than enjoying French Toast for breakfast! I like to use thicker bread for my french toast recipe but you can still use regular white
+               bread, the trick is to not let the thinner bread soak too long as it will make your french toast soggy. I also enjoy making french toast to freeze
+               for a quick an easy breakfast anytime, just pop the french toast from the freezer to your plate and in the microwave for a quick hearty breakfast
+               in the morning!
+            </p>
+        </div>
+        
+        <div class="container pt-2 mt-2 float-left" style="border-top:#3fb7f8 solid 2px">
+            <div class="row">
+              <div class="col-sm">
+                <h3>Ingredients</h3>
+              <div>
+                    <ul>
+                        <li>4 large eggs</li>
+                        <li>1 cup milk</li>
+                        <li>1/4 cup sugar</li>
+                        <li>2 teaspoons vanilla extract</li>
+                        <li>1/2 teaspoon ground cinnamon</li>
+                        <li>about 16 slices bread, (French bread, Italian Deli, Texas Toast, white bread)</li>
+                        <li>butter for cooking</li>
+                    </ul>
+                </div>
+              </div>
+              
+              <div class="col-sm">
+                <div>
+                    <h3>Directions</h3>
+                </div>
+    
+                <div>
+                    <ol>
+                        <li>In a bowl that is large enough to dip your bread slices, whisk together the eggs, sugar, vanilla, and cinnamon. Mix in the milk last. </li>
+                        <li>Preheat a large skillet over medium heat  or a griddle (350 degrees), melt about 1-2 tablespoons butter. </li>
+                        <li>While butter is melting, dip a few slices of bread (how ever many slices will fit in your skillet or griddle) in the french toast 
+                            mixture for 3 seconds per side and place in the skillet or griddle and cook for 3-4 minutes per side until golden brown. </li>
+                        <li>If you are serving fresh french toast for breakfast you can keep them warm in the oven on a cookie sheet at 250 degrees until ready to serve.</li>
+                    </ol>
+                </div>
+              </div>
+              <div class="col-sm ">
+                <div>
+                    <h3>French Toast Toppings</h3>
+                </div>
+    
+                <div>
+                    <ul>
+                        <li>Serve warm with butter</li>
+                        <li>Maple Syrup</li>
+                        <li>Fresh Fruit</li>
+                        <li>Whipped Cream Topping</li>
+                        <li>Powdered Sugar</li>
+                    </ul>
+                </div>
+                <div class="container">
+
+                  <div class="alert alert-info alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Great Tip!</strong><p style="text-align:center"><strong>**</strong>For Freezing<strong>**</strong> <br>Allow it to cool completely before storing in a freezer safe container or bag for up to 3 months.
+                      To enjoy your french toast just reheat in a skillet, toaster or microwave for a quick delicious morning breakfast!</p>
+                  </div>
+
+                 
+                  </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer class="container text-center mx-2">
+      <p>
+          All Rights Reserved (c) Copyright 2023 <br> Just A Dash
+      </p>
+  </footer>
+
+  </body>
+</html>

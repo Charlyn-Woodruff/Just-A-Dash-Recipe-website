@@ -1,0 +1,181 @@
+<!--Charlyn Woodruff ~ CIT 205 Web Dev Tools ~ Module 5 Exercise Bootstrap-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--This is the title for the webpage one of the SEO techniques I used-->
+    <title>Just A Dash ~ Taco Recipe</title>
+     <!--This is the meta tag description with the description for the webpage 2 SEO technique I used-->
+    <meta name="description" content="Just a Dash ~ Taco Recipe ~ This tasty Taco recipe will be a great hit with your family and friends, just add all your favorite taco toppings" >
+    <!--This is the meta tag keyword with keywords for the webpage 3rd SEO technique I used-->
+    <meta name="keywords" content="tacos, dinner,lunch, recipe, meal, recipes, best">
+
+    <!--This is the character set-->
+    <meta charset="utf-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Birthstone Bounce' rel='stylesheet'>
+
+   <!--This section adds a favicon to the top tab of the browser window on each webpage and changes depending on the page your are on-->
+   <link rel="icon" type="image/png" href="images/favicon.png">
+   <!--This will tell the browser how to scale the webpage depending on the device that is viewing it-->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Latest compiled and minified CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+   <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+
+<body class="container rounded pt-2 mt-4 mb-4">
+  <div class="container pb-1">
+
+
+        <header id="topbar">
+            Recipes Made with Love
+        </header>
+    <div class="articleboxouter">
+        <div class="userform">
+            <input type="text" name="searchbox" id="search" size="8" >
+            <input type="submit" name="submit" value="search" >
+        </div>
+    </div>
+
+        <h1 id="website">Just A Dash </h1>
+        <h6>Appetizing lunch to tide you over til dinner!</h6>
+
+
+          <ul class="nav nav-pills" >
+            <li class="nav-item ">
+              <a class="nav-link active m-2" href="index.html" style="background-color: #3fb7f8">Home</a>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Breakfast Recipes</a>
+              <div class="dropdown-menu bg-white border border-secondary border-1" >
+                <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="french_toast_recipe.html">French Toast Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pancake_recipe.html">Pancake Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="breakfast_bake_recipe.html">Breakfast Bake Recipe</a>
+              </div>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Lunch Recipes</a>
+              <div class="dropdown-menu bg-white border border-secondary border-1" >
+                <a class="dropdown-item  mb-1 text-white" style="background-color: #3fb7f8" href="taco_recipe.html">Taco Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd"  href="chicken_soup_recipe.html">Chicken Soup Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="chicken_quesillda_recipe.html">Chicken Quesadilla Recipe</a>
+              </div>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dinner Recipes</a>
+              <div class="dropdown-menu bg-white border border-secondary border-1 " >
+                <a class="dropdown-item mb-1" style="background-color: #fbfcfd"  href="meatloaf_recipe.html"  >Meatloaf Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pot_roast_recipe.html">Pot Roast Recipe</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="lasagna_recipe.html" >Lasagna Recipe</a>
+              </div>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dessert Recipes</a>
+              <div class="dropdown-menu bg-white border border-secondary border-1 " >
+                <a class="dropdown-item mb-1" style="background-color: #fbfcfd" href="homemade_ice_cream_recipe.html"  >Homemade Ice cream Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="hot_fudge_brownie_recipe.html">Hot Fudge Brownie Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="strawberry_pie_recipe.html">Strawberry Pie Recipe</a>
+              </div>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Subscribe & More</a>
+              <div class="dropdown-menu bg-white border border-secondary border-1 " >
+                <a class="dropdown-item mb-1"  style="background-color: #fbfcfd" href="subscribe.html"  >Subscribe to NewsLetter</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="about.html">About Us</a>
+                <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="contact.html">Email us!</a>
+              </div>
+            </li>
+          </ul>
+    </div>
+
+      <main class="container rounded  articleboxouter">
+
+        <div class="container">
+
+            <img src="images/tacos.jpg" alt="Tacos" class="mainpiccontrol rounded float-start my-5 mx-3" >
+
+            <h2 class="container my-1 subscribeh2">Ground Beef <br> Taco Recipe</h2>
+        
+            <p>
+               Lunchtime is a good time to recharge and enjoy some Tacos! I love a quick and delicious taco lunch recipe that the whole family will enjoy!
+               This taco recipe is easy and you can add or omit seasoning spices based on your own preferences. I usually like to add onion powder and a 
+               little garlic powder to ours but you can spice it up however you like!
+            </p>  
+        </div>
+        
+
+        <div class="container pt-2 mt-2 pb-5 float-left" style="border-top:#3fb7f8 solid 2px" >
+          <div class="row">
+            <div class="col-sm">
+              <div>
+                <h3>Ingredients</h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li>1 lb ground beef</li>
+                    <li>Soft or hard shell Taco shells</li>
+                    <li>Mild Cheddar Shredded cheese (or your favorite cheese topping)</li>
+                    <li>Shredded Lettuce</li>
+                    <li>Diced Tomatoes</li>
+                    <li>Diced Onions</li>
+                    <li>Taco seasoning  packet for the hamburger (or your own seasoning spices)</li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div>
+                <h3>Directions</h3>
+            </div>
+
+            <div>
+                <ol>
+                    <li>Dice, chop and shred your tomatoes, lettuce and onions, set them aside in containers until you are ready to serve your tacos.</li>
+                    <li>Heat a large skillet over medium-high heat, add the ground beef (add your own spices if not using a taco seasoning packet) chopping the meat
+                         with a spoon or spatula into smaller pieces. Cook meat until fully done.  </li>
+                    <li>Drain off any excess grease after browning the taco meat. </li>
+                    <li>If using a taco seasoning packet, add it to the cooked hamburger and follow the instructions on the packet </li>
+                    <li>Once you have finished cooking the  taco meat  with the spices, it is now ready to be added to your favorite taco shell 
+                        and topped with cheese, lettuce, tomatoes, onions, and all your favorite toppings to enjoy!</li>
+                </ol>
+            </div>
+            </div>
+            <div class="col-sm ">
+              <div>
+                <h3>Taco Toppings</h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Sour Cream</li>
+                    <li>Ranch Dressing</li>
+                    <li>Jalapenos</li>
+                    <li>Salsa</li>
+                    <li>Taco Sauce</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+    <footer class="container text-center mx-2">
+      <p>
+          All Rights Reserved (c) Copyright 2023 <br> Just A Dash
+      </p>
+  </footer>
+
+  </body>
+</html>

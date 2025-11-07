@@ -1,0 +1,11 @@
+User-agent: Googlebot-Image
+Disallow: /images/teal.jpg
+Disallow: /images/tableft8.gif
+Disallow: /images/tableft8.jpg
+Disallow: /images/tabright8.gif
+
+User-agent: *
+Disallow: /subscribe.html
+
+User-agent: AdsBot-Google
+Disallow: /

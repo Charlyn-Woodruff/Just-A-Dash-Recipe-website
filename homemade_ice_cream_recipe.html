@@ -1,0 +1,186 @@
+<!--Charlyn Woodruff ~ CIT 205 Web Dev Tools ~ Module 5 Exercise Bootstrap-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--This is the title for the webpage one of the SEO techniques I used-->
+    <title>Just A Dash ~ Strawberry Ice Cream Recipe</title>
+     <!--This is the meta tag description with the description for the webpage 2 SEO technique I used-->
+    <meta name="description" content="Just a Dash ~ Delicious strawberry ice cream dessert recipe so smooth you'll never buy ice cream again! This is the best ice cream recipe you can adapt to your own flavors!">
+    <!--This is the meta tag keyword with keywords for the webpage 3rd SEO technique I used-->
+    <meta name="keywords" content="strawberry, ice, cream, desserts, recipe, recipes, best">
+
+    <!--This is the character set-->
+    <meta charset="utf-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Birthstone Bounce' rel='stylesheet'>
+
+    <!--This section adds a favicon to the top tab of the browser window on each webpage and changes depending on the page your are on-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--This will tell the browser how to scale the webpage depending on the device that is viewing it-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+
+<body class="container rounded pt-2 mt-4 mb-4">
+  <div class="container pb-1">
+
+
+        <header id="topbar">
+            Recipes Made with Love
+        </header>
+
+    <div class="articleboxouter">
+        <div class="userform">
+            <input type="text" name="searchbox" id="search" size="8" >
+            <input type="submit" name="submit" value="search" >
+        </div>
+    </div>
+
+    <h1 id="website">Just A Dash </h1>
+        <h6> Don't forget to save room for dessert!</h6>
+
+        <ul class="nav nav-pills" >
+          <li class="nav-item ">
+            <a class="nav-link active m-2" href="index.html" style="background-color: #3fb7f8">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Breakfast Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="french_toast_recipe.html">French Toast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pancake_recipe.html">Pancake Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="breakfast_bake_recipe.html">Breakfast Bake Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Lunch Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="taco_recipe.html">Taco Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd"  href="chicken_soup_recipe.html">Chicken Soup Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="chicken_quesillda_recipe.html">Chicken Quesadilla Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dinner Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1" style="background-color: #fbfcfd"  href="meatloaf_recipe.html"  >Meatloaf Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pot_roast_recipe.html">Pot Roast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="lasagna_recipe.html" >Lasagna Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dessert Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1 text-white" style="background-color: #3fb7f8" href="homemade_ice_cream_recipe.html"  >Homemade Ice cream Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="hot_fudge_brownie_recipe.html">Hot Fudge Brownie Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="strawberry_pie_recipe.html">Strawberry Pie Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Subscribe & More</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1"  style="background-color: #fbfcfd" href="subscribe.html"  >Subscribe to NewsLetter</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="about.html">About Us</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="contact.html">Email us!</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  
+    
+      <main class=" container rounded articleboxouter">
+
+        <div class="container">
+            <img src="images/strawberry_ice_cream.jpg" alt="strawberry ice cream" class="mainpiccontrol rounded float-start my-5 mx-3" >
+
+            <h2 class="container my-1 subscribeh2">Strawberry <br> Ice Cream Recipe</h2>
+        
+            <p>
+                Mmmm my favorite meal of the day! Time for a quick and delicious strawberry ice cream dessert recipe! I have found this strawberry ice cream recipe 
+                that uses sweetened condensed milk and heavy whipping cream creates a wonderfully smooth texture that you will fall in love with!
+            </p>
+        </div>
+
+        <div class="container pt-2 mt-2 float-left" style="border-top:#3fb7f8 solid 2px ">
+          <div class="row">
+            <div class="col-sm">
+              <div>
+                <h3>Ingredients</h3>
+              </div>
+
+            <div>
+                <ul>
+                    <li>14 oz can of sweetened condensed milk</li>
+                    <li>2 cups cold heavy whipping cream</li>
+                    <li>1 teaspoons vanilla extract</li>
+                    <li>1 can of strawberry pie filling</li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div>
+                <h3>Directions</h3>
+            </div>
+
+            <div>
+                <ol>
+                    <li>Place the 2 colds of heavy whipping cream in a bowl, use a electric mixer to whip the cream until it 
+                        has thickened and forms soft peaks and the cream sticks to the mixer blades. </li>
+                    <li> Pour the sweetened condensed milk and vanilla extract into a bowl and mix.</li>
+                    <li>Gently fold in the sweetened condensed milk and the vanilla extract  mixture into the whipping cream until smooth.</li>
+                    <li>Pour half of the whipping cream mixture into a freezer safe container, pour half the can of strawberry pie filling over 
+                        the whipping cream and swirl the two together with a butter knife. </li>
+                    <li>Now pour the rest of the whipping cream mixture over the strawberry cream mixture, top with the rest of the strawberry pie 
+                        filling and swirl with a butter knife again</li>
+                    <li>Place the strawberry ice cream mixture in the freezer for at least 5 hours before serving.</li>
+                </ol>
+            </div>
+
+            </div>
+            <div class="col-sm ">
+              <div>
+                <h3>Ice Cream Toppings</h3>
+              </div>
+
+            <div>
+                <ul>
+                    <li>Hot Fudge</li>
+                    <li>Caramel</li>
+                    <li>Fresh Fruit</li>
+                    <li>Whipped Cream</li>
+                </ul>
+                <p style="text-align:center"><strong>**</strong>Ice Cream Variations<strong>**</strong> <br>Pie Filling ~ Blueberry, Apple, Cherry<br>Chocolate Chips<br> Chocolate Syrup
+                    <br>Caramel Syrup<br>Candy Bar pieces<br>Mint Chocolate chips w/ mint extract</p>
+            </div>
+            <div class="container">
+
+              <div class="alert alert-info alert-dismissible">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Great Tip!</strong> <br>Leave out the strawberries in this recipe and you have vanilla flavor homemade ice cream!!
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="container text-center mx-2">
+      <p>
+          All Rights Reserved (c) Copyright 2023 <br> Just A Dash
+      </p>
+  </footer>
+  </body>
+</html>

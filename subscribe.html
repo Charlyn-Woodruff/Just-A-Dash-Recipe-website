@@ -1,0 +1,197 @@
+<!--Charlyn Woodruff ~ CIT 205 Web Dev Tools ~ Module 5 Exercise Bootstrap-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <!--This is the title for the webpage one of the SEO techniques I used-->
+    <title>Just A Dash ~ Recipes | Subscribe</title>
+    <!--This is the meta tag description with the description for the webpage 2 SEO technique I used-->
+    <meta name="description" content="Just a Dash Recipes | Subscribe to our newsletter to receive more tasty recipes! ">
+
+    <!--This is the character set-->
+    <meta charset="utf-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Birthstone Bounce' rel='stylesheet'>
+
+    <!--This section adds a favicon to the top tab of the browser window on each webpage and changes depending on the page your are on-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--This will tell the browser how to scale the webpage depending on the device that is viewing it-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+
+<body class="container rounded pt-2 mt-4 mb-4">
+  <div class="container pb-1">
+
+
+        <header id="topbar">
+            Recipes Made with Love
+        </header>
+
+        <div class="container rounded  articleboxouter">
+            <div class="userform">
+                <input type="text" name="searchbox" id="search" size="8" >
+                <input type="submit" name="submit" value="search" >
+            </div>
+        </div>
+
+        <h1 id="website">Just A Dash </h1>
+        <h6>Recipes for any Time of Day!</h6>
+
+        <ul class="nav nav-pills" >
+          <li class="nav-item ">
+            <a class="nav-link active m-2" href="index.html" style="background-color: #3fb7f8">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Breakfast Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="french_toast_recipe.html">French Toast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pancake_recipe.html">Pancake Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="breakfast_bake_recipe.html">Breakfast Bake Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Lunch Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="taco_recipe.html">Taco Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd"  href="chicken_soup_recipe.html">Chicken Soup Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="chicken_quesillda_recipe.html">Chicken Quesadilla Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dinner Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1" style="background-color: #fbfcfd"  href="meatloaf_recipe.html"  >Meatloaf Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pot_roast_recipe.html">Pot Roast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="lasagna_recipe.html" >Lasagna Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dessert Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1" style="background-color: #fbfcfd" href="homemade_ice_cream_recipe.html"  >Homemade Ice cream Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="hot_fudge_brownie_recipe.html">Hot Fudge Brownie Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="strawberry_pie_recipe.html">Strawberry Pie Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Subscribe & More</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1 text-white"  style="background-color: #3fb7f8" href="subscribe.html"  >Subscribe to NewsLetter</a> 
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="about.html">About Us</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="contact.html">Email us!</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <main class="container rounded " style="border-top:#3fb7f8 solid 2px ">
+        <div class="container p-3">
+
+          
+          <button type="button" class="btn btn-info mb-3 float-end" style="background-color: #3fb7f8;" data-bs-toggle="tooltip" title="Don't forget to subscribe for more recipes!">Hover here for message!</button>
+
+            <h2 class="container float-start text-center subscribeh2">Subscribe to our <br> Mailing List</h2>
+
+              <form action="/action_page.php" class="was-validated m-3">
+                <div class="form-group mx-5 m-3">
+                  <label for="fname">First Name:</label>
+                  <input type="text" class="form-control" id="fname" placeholder="First Name" name="fname" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group mx-5 m-3">
+                  <label for="lname">Last Name:</label>
+                  <input type="text" class="form-control" id="lname" placeholder="Last name" name="lname" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group mx-5 m-3">
+                  <label for="fname">Email:</label>
+                  <input type="text" class="form-control" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group mx-5 m-3">
+                  <label for="fname">Phone Number:</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+
+                <div class="form-group form-radio mx-4">
+                  <div>Would you like to subscribe to our Newsletter?</div>
+                  <label class="form-check-label " for="yes">
+                    <input class="form-radio-input" type="radio" id="yes" name="subscribe" required>
+                     Yes</label>
+
+                  <label class="form-radio-label" for="no">
+                    <input class="form-radio-input" type="radio" id="no" name="subscribe" required>
+                     No</label>
+                
+                
+                  <div class="form-check  mx-4 mt-5 ">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="recipes">Breakfast
+                    </label>
+                  </div>
+                  <div class="form-check mx-4 ">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="recipes">Lunch
+                    </label>
+                  </div>
+                  <div class="form-check mx-4 ">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="recipes" >Dinner
+                    </label>
+                  </div>
+                  <div class="form-check mx-4 ">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="recipes">Dessert
+                    </label>
+                  </div>
+                  <div class="form-check mx-4 ">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="recipes" >Other
+                    </label>
+                  </div>
+          
+                <div class="form-group mx-4 my-4" >
+                  <label for="rate">Rate Your Favorite Recipe:</label>
+                  <select class="form-control mt-1 " id="rate">
+                    <option>5 stars</option>
+                    <option>4 stars</option>
+                    <option>3 stars</option>
+                    <option>2 stars</option>
+                    <option>1 stars</option>
+                  </select>
+                
+                
+                  <textarea class="form-control mt-2" id="textarea" rows="7">Write your favorite recipe review!</textarea>
+                  <button type="submit" class="btn btn-info mt-2" >Submit</button>
+                </div>
+              </div>
+                
+            </form>
+          </div>
+          
+        </main>
+        <footer class="container text-center mx-2">
+          <p>
+              All Rights Reserved (c) Copyright 2023 <br> Just A Dash
+          </p>
+      </footer>
+</body>
+</html>

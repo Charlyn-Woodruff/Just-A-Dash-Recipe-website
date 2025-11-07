@@ -1,0 +1,189 @@
+<!--Charlyn Woodruff ~ CIT 205 Web Dev Tools ~ Module 5 Exercise Bootstrap-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--This is the title for the webpage one of the SEO techniques I used-->
+    <title>Just A Dash ~ Meatloaf Recipe</title>
+     <!--This is the meta tag description with the description for the webpage 2 SEO technique I used-->
+    <meta name="description" content="Just a Dash ~ Meatloaf Recipe | A hearty meatloaf recipe that your family and friends will enjoy eating! ">
+    <!--This is the meta tag keyword with keywords for the webpage 3rd SEO technique I used-->
+    <meta name="keywords" content="meatloaf, dinner, recipe, meal, recipes">
+
+    <!--This is the character set-->
+    <meta charset="utf-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Birthstone Bounce' rel='stylesheet'>
+
+    <!--This section adds a favicon to the top tab of the browser window on each webpage and changes depending on the page your are on-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--This will tell the browser how to scale the webpage depending on the device that is viewing it-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+
+<body class="container rounded pt-2 mt-4 mb-4">
+  <div class="container pb-1">
+
+
+        <header id="topbar">
+            Recipes Made with Love
+        </header>
+    <div class="articleboxouter">
+        <div class="userform">
+            <input type="text" name="searchbox" id="search" size="8" >
+            <input type="submit" name="submit" value="search" >
+        </div>
+    </div>
+
+    <h1 id="website">Just A Dash </h1>
+        <h6>Hearty meatloaf dinner after a long day! </h6>
+
+       
+        <ul class="nav nav-pills" >
+          <li class="nav-item ">
+            <a class="nav-link active m-2" href="index.html" style="background-color: #3fb7f8">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Breakfast Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="french_toast_recipe.html">French Toast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pancake_recipe.html">Pancake Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="breakfast_bake_recipe.html">Breakfast Bake Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2" data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Lunch Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1" >
+              <a class="dropdown-item  mb-1" style="background-color: #fbfcfd" href="taco_recipe.html">Taco Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd"  href="chicken_soup_recipe.html">Chicken Soup Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="chicken_quesillda_recipe.html">Chicken Quesadilla Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dinner Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1 text-white" style="background-color: #3fb7f8"  href="meatloaf_recipe.html"  >Meatloaf Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="pot_roast_recipe.html">Pot Roast Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="lasagna_recipe.html" >Lasagna Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Dessert Recipes</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1" style="background-color: #fbfcfd" href="homemade_ice_cream_recipe.html"  >Homemade Ice cream Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="hot_fudge_brownie_recipe.html">Hot Fudge Brownie Recipe</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="strawberry_pie_recipe.html">Strawberry Pie Recipe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white m-2 " data-bs-toggle="dropdown" href="#" style="background-color: #3fb7f8" >Subscribe & More</a>
+            <div class="dropdown-menu bg-white border border-secondary border-1 " >
+              <a class="dropdown-item mb-1"  style="background-color: #fbfcfd" href="subscribe.html"  >Subscribe to NewsLetter</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="about.html">About Us</a>
+              <a class="dropdown-item mt-1 mb-1" style="background-color: #fbfcfd" href="contact.html">Email us!</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+    
+    <main class="container rounded  articleboxouter">
+
+        <div class="container">
+            <img src="images/meatloaf.jpg" alt="Meatloaf" class="mainpiccontrol rounded-circle float-start my-5 mx-3" >
+        </div>
+          <div class="container">
+            <h2 class="container my-1 subscribeh2">Meatloaf Recipe</h2>
+            <p>
+                After a long day of work it's time to enjoy a slice of homemade meatloaf with all your favorite side dishes! Here's a flavorful meatloaf
+                recipe I like to serve with mashed potatoes, buttered noodles and green beans seasoned with onion powder, butter and bacon bits! The trick to 
+                this meatloaf recipe is to cook the onions and green peppers in butter a pan to soften them, and let them cool before adding to your meatloaf
+            </p>  
+        </div>
+        
+
+        <div class="container pt-2 mt-2 float-left" style="border-top:#3fb7f8 solid 2px">
+          <div class="row">
+            <div class="col-sm">
+              <div>
+                <h3>Ingredients</h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li>2 lb ground beef (80/20 fat)</li>
+                    <li>1/3 cup diced onion</li>
+                    <li>1/3 cup diced green pepper</li>
+                    <li>1 cup italian bread crumbs</li>
+                    <li>2 large eggs</li>
+                    <li>1/3 cup ketchup</li>
+                    <li>1 tsp onion powder</li>
+                    <li>1 tsp garlic powder</li>
+                    <li>1 tsp salt</li>
+                    <li>1/2 tsp pepper</li>
+                    <li>3/4 cup ketchup for glaze</li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div>
+                <h3>Directions</h3>
+              </div>
+
+            <div>
+                <ol>
+                    <li>In a pan add butter to the diced onions and green peppers, cook them until they are tender, set aside to cool.<br> Preheat oven to 365 </li>
+                    <li>In a large bowl whisk eggs, 1/3 cup ketchup, spices, bread crumbs, onions and green peppers. <br>Mix ground beef into the mixture so 
+                        it is combined well with the ingredients in the bowl, shape into a loaf in a glass 9 x 13 inch pan.</li>
+                    <li>Take the 3/4 cup ketchup and brush it onto all sides and the top of the meatloaf. </li>
+                    <li>Place in the oven at 365 degrees for 1 hr 15 minutes, let set for 15 minutes when done cooking before slicing</li>
+                </ol>
+            </div>
+            </div>
+            <div class="col-sm ">
+              <div>
+                <h3>Meatloaf Toppings</h3>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Sliced Cheese</li>
+                    <li>Fresh Parsley</li>
+                </ul>
+                <p style="text-align:center" ><strong>**</strong>Side Dishes<strong>**</strong> <br>Mashed Potatoes<br>Buttered Noodles <br>Green Beans<br>Macaroni n Cheese</p>        
+            </div>
+            <div class="container">
+
+              <div class="alert alert-info alert-dismissible">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Great Tip!</strong><p style="text-align:center"><strong>**</strong>For Freezing<strong>**</strong> <br>After it has cooled cut your meatloaf into slices and store in freezer safe container or bag
+                  and store in your freezer for up to 3 months for a quick on the go meal!</p>
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+    <footer class="container text-center mx-2">
+      <p>
+          All Rights Reserved (c) Copyright 2023 <br> Just A Dash
+      </p>
+  </footer>
+
+  </body>
+</html>
